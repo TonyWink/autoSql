@@ -29,7 +29,7 @@ public abstract class BaseDao<Entity> implements IBaseDao<Entity>{
 	 */
 	public List<Entity> selectAll(Entity entity) throws Exception{
 		OrderSet order=new OrderSet();
-		order.select(entity.getClass().getSimpleName());
+		//order.select(entity.getClass().getSimpleName());
 		Connection con= Manager.getConnection();
 		Statement st=con.createStatement();
 		ResultSet rs=st.executeQuery(order.toString());
@@ -45,7 +45,7 @@ public abstract class BaseDao<Entity> implements IBaseDao<Entity>{
 	 */
 	public List<Entity> selectItems(Entity entity) throws Exception{
 		OrderSet order=new OrderSet();
-		order.select(entity.getClass().getSimpleName()).where(entity);
+		//order.select(entity.getClass().getSimpleName()).where(entity);
 		Connection con= Manager.getConnection();
 		PreparedStatement st=con.prepareStatement(order.toString());
 		ResultSet rs=setParms(st, entity).executeQuery();

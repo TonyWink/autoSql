@@ -2,6 +2,8 @@ package com.wink.sql.test;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.wink.sql.core.Manager;
+import com.wink.sql.enums.Constraint;
+import com.wink.sql.order.ColumnConfig;
 import com.wink.sql.order.OrderSet;
 import com.wink.sql.test.beans.Student;
 import com.wink.sql.utils.PropertyUtils;
@@ -13,9 +15,8 @@ public class CRUDTest {
 
     @Test
     public void baseTest() throws NoSuchFieldException {
-    Boolean rs=PropertyUtils.isPrimaryKey(Student.class.getDeclaredField("name"));System.out.println(rs);
+   // Boolean rs=PropertyUtils.isPrimaryKey(Student.class.getDeclaredField("name"));System.out.println(rs);
     }
-
 
 	@Test
 	public void Protest() throws IntrospectionException {
@@ -31,16 +32,14 @@ public class CRUDTest {
     public void testDataSource(){
         Manager manager=new Manager(new ComboPooledDataSource());
 
-
-
-
     }
 
 
     @Test
     public void testCreateTable(){
        OrderSet o=new OrderSet();
-       o.createTable(Student.class,50,50,null);
+       Constraint[] cons={Constraint.UNIQUE,Constraint.NOTNULL.setParm(50)};
+       o.createTable(Student.class,new ColumnConfig(1,30,cons));
        System.out.println(o);
 
     }

@@ -119,13 +119,22 @@ public class OrderSet {
      public <T> OrderSet createTable(Class clazz,ColumnConfig...configs){
      	Field[] fields=clazz.getDeclaredFields();
      	TableOrder.createTable(clazz,orders);
-     	if(configs!=null) {
-            for (int i = 0; i < fields.length; i++) {
-                if (configs[i].getIndex() == i)
-
-
+         System.out.println(configs);
+         if(configs.length!=0) {
+            for(int i = 0; i < fields.length; i++) {
+                for (int j=0; j < configs.length;j++) {
+                    if (configs[j].getIndex() == i) {
+                        orders = ColumnOrder.setColumn(fields[i].getType(),fields[i], orders, configs[j]);
+                    } else {
+                        orders = ColumnOrder.setColumn(fields[i].getType(),fields[i], orders, null);
+                    }
+                }
             }
-        }
+        }else{
+            for(int i = 0; i < fields.length; i++) {
+                orders = ColumnOrder.setColumn(fields[i].getType(),fields[i], orders, null);
+            }
+		}
 		order.replace(order.length()-1,order.length(),"").append(")");
      	return orders;
 	 }

@@ -31,10 +31,4 @@ public class PropertyUtils {
 		}
 	}
 
-	public static Boolean isPrimaryKey(Field field){
-		ID id=field.getAnnotation(ID.class);
-		if(id!=null) return true;
-		return false;
-
-	}
 }

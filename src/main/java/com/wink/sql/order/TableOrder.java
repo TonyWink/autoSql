@@ -12,7 +12,8 @@ public class TableOrder extends BaseOrder {
         return   annotation.value();
     }
 
-    public static  void createTable(Class clazz,OrderSet order){
-        order.getOrder().append("CREATE TABLE "+getTableName(clazz)+" (");
+    public static  OrderSet createTable(Class clazz,OrderSet orders){
+        orders.getOrder().append("CREATE TABLE "+getTableName(clazz)+" (");
+        return orders;
     }
 }
