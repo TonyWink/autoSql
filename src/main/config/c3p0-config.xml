@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <c3p0-config>
-
-    <named-config >
-        <property name="user">root</property>
+    <default-config>
+    <property name="user">root</property>
         <property name="password">root</property>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/Wink</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/Wink?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false</property>
 
         <!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数 -->
         <property name="acquireIncrement">5</property>
@@ -25,6 +24,5 @@
 
         <!--maxStatementsPerConnection定义了连接池内单个连接所拥有的最大缓存statements数。Default: 0 -->
         <property name="maxStatementsPerConnection">5</property>
-    </named-config>
-
+    </default-config>
 </c3p0-config>

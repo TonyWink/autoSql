@@ -1,0 +1,203 @@
+2017-10-10 at 13:23:20 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=? AND gender=? ;
+2017-10-10 at 13:23:20 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name02
+2017-10-10 at 13:23:20 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--sex-->m
+2017-10-10 at 13:24:03 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE count=? ;
+2017-10-10 at 13:24:03 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--count-->10
+2017-10-10 at 13:50:36 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->DELETE FROM sy_stu WHERE count=? ;
+2017-10-10 at 13:50:36 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name00
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name01
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name02
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name03
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name04
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name05
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name06
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name07
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name08
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name09
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:50:59 CST 2017
+2017-10-10 at 13:50:59 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:53:49 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->DELETE FROM sy_stu;
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name00
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:50 CST 2017
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name01
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:50 CST 2017
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name02
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:50 CST 2017
+2017-10-10 at 13:57:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name03
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name04
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name05
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name06
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name07
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name08
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name09
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:57:51 CST 2017
+2017-10-10 at 13:57:51 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:14 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->DELETE FROM sy_stu;
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name00
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:27 CST 2017
+2017-10-10 at 13:58:27 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name01
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name02
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name03
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name04
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name05
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name06
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name07
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name08
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->INSERT INTO sy_stu VALUES (?,?,?,?,?);
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--name-->name09
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:2--age-->10
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:3--sex-->m
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:4--time-->Tue Oct 10 13:58:28 CST 2017
+2017-10-10 at 13:58:28 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:5--count-->10
+2017-10-10 at 15:11:50 CST INFO  com.wink.sql.core.SqlFactory 32 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE count=? ;
+2017-10-10 at 15:11:50 CST INFO  com.wink.sql.mapper.ParmMapper 26 fieldMapping - index:1--count-->10
+2017-10-10 at 15:15:53 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:17:47 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:18:11 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:20:32 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:22:06 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:22:08 CST INFO  com.wink.sql.core.SqlOperater 71 executeQuery - parm key-->nam00
+2017-10-10 at 15:22:30 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:22:33 CST INFO  com.wink.sql.core.SqlOperater 71 executeQuery - parm key-->20
+2017-10-10 at 15:22:54 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 15:22:56 CST INFO  com.wink.sql.core.SqlOperater 71 executeQuery - parm key-->Student{name='null', age=null, sex='null', time=null, count=10}
+2017-10-10 at 16:46:46 CST INFO  com.wink.sql.core.SqlFactory 55 createBaseSql - SQL-->SELECT * FROM sy_stu WHERE MY_NAME=?;
+2017-10-10 at 16:46:47 CST INFO  com.wink.sql.core.SqlOperater 71 executeQuery - parm key-->Student{name='null', age=null, sex='null', time=null, count=10}

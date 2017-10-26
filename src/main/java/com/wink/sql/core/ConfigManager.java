@@ -1,30 +1,45 @@
 package com.wink.sql.core;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class Manager {
+public class ConfigManager {
     private static DataSource dataSource;
+    private static ConfigManager manager;
+    private static final Object lock=new Object();
     private static ThreadLocal<Connection> thread = new ThreadLocal<Connection>();
+    private static final Logger LOGGER= LogManager.getLogger(ConfigManager.class);
 
-    public Manager(DataSource dataSource){
+    private ConfigManager(DataSource dataSource){
         this.dataSource=dataSource;
     }
 
     public static DataSource getDataSource() {
+        if(dataSource==null) {
+            LOGGER.error("You should configure the datasource first. ");
+            throw new RuntimeException("You should configure the datasource first. ");
+        }
         return dataSource;
     }
 
     public static void setDataSource(DataSource dataSource) {
-        Manager.dataSource = dataSource;
+        if(manager==null){
+            manager=new ConfigManager(dataSource);
+        }else{
+            LOGGER.info("WARNING:You should not initialize ConfigManager again.");
+        }
     }
 
     public static Connection getConnection() {
         try {
             Connection con = thread.get();
             if (con != null) return con;
-            return dataSource.getConnection();
+            return getDataSource().getConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -6,6 +6,7 @@ import com.wink.sql.annonations.ID;
 import com.wink.sql.enums.Constraint;
 import com.wink.sql.mapper.TypeMapper;
 
+import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 
 public final class ColumnOrder extends BaseOrder{
@@ -18,6 +19,17 @@ public final class ColumnOrder extends BaseOrder{
             return field.getName();
         }
         return column.value();
+    }
+
+    public  static String getColumnName(PropertyDescriptor prop,Class clazz){
+        Field [] fields=clazz.getDeclaredFields();
+        for(Field field : fields){
+            if(prop.getName().equals(field.getName())){
+                return getColumnName(field);
+            }
+        }
+        System.out.println("no such property "+prop.getName()+" column name found !");
+        return null;
     }
 
     public static void addConstraint(StringBuffer order, Constraint cons){

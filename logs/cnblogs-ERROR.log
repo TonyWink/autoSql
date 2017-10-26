@@ -1,0 +1,2 @@
+2017-10-10 at 15:22:56 CST ERROR com.wink.sql.core.SqlOperater 75 executeQuery - execute error:Invalid argument value: java.io.NotSerializableException
+2017-10-10 at 16:46:47 CST ERROR com.wink.sql.core.SqlOperater 75 executeQuery - execute error:Invalid argument value: java.io.NotSerializableException

@@ -13,13 +13,14 @@ public class Student {
 	@ID
 	@Column("MY_NAME")
 	private String name;
+
 	private Long age;
 	@Column("gender")
-	private Character sex;
+	private String sex;
 
 	private Date time;
 
-	private int count;
+	private Integer count;
 
 	public String getName() {
 		return name;
@@ -37,11 +38,11 @@ public class Student {
 		this.age = age;
 	}
 
-	public Character getSex() {
+	public String getSex() {
 		return sex;
 	}
 
-	public void setSex(Character sex) {
+	public void setSex(String sex) {
 		this.sex = sex;
 	}
 
@@ -53,11 +54,22 @@ public class Student {
 		this.time = time;
 	}
 
-	public int getCount() {
+	public Integer getCount() {
 		return count;
 	}
 
-	public void setCount(int count) {
+	public void setCount(Integer count) {
 		this.count = count;
+	}
+
+	@Override
+	public String toString() {
+		return "Student{" +
+				"name='" + name + '\'' +
+				", age=" + age +
+				", sex='" + sex + '\'' +
+				", time=" + time +
+				", count=" + count +
+				'}';
 	}
 }
